@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selection Sort Visualizer</title>
+    <link rel="stylesheet" href="/SelectionSort/selection_style.css">
+</head>
+
+<body>
+    <div class="backcolor">
+        <section class="section-gap">
+
+            <h1>Selection Sort</h1>
+            <p> About the algorithm:</p>
+            <hr>
+            <p> Selection sort is a simple ans efficient sorting algorithm that works by
+                repeatedly selecting the smallest element from the unsorted portion of the list 
+                and moving it to the sorted portion of the list. </p>
+            <h3>Time Complexity: O(N^2) </h3>
+            <h3>Space Complexity: O(1) </h3>
+        </section>
+    </div>
+    <div id="bars-container"></div>
+        <div class="controls">
+        <button id="randomize-array-btn" class="rab">Randomize </button>
+        <div class="speed-slider">
+            <label for="speed-slider">Sorting Speed:</label>
+            <input type="range" id="speed-slider" min="1" max="100" value="50">
+            <!-- <button id="pause-btn" class="pb"> Pause</button> -->
+        </div>
+        <button id="sort-btn" class="sb">Sort</button>
+        
+    </div>
+    <script src="/SelectionSort/selection_script.js"></script>
+</body>
+</html>

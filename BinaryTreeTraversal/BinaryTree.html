@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="/BinaryTreeTraversal/BinaryTree.css">
+    <title>Binary Tree</title>
+</head>
+
+<body>
+
+    <div class="backcolor">
+        <section class="section-gap">
+
+            <h1>Binary Tree Traversal</h1>
+            <p> About the algorithm:</p>
+            <hr>
+            <p>Binary Tree Traversal is the graph traversal technique and 
+                refers to the process of visiting each node <br/>in a tree data structure
+                exactly once. Such traversals are classified by the order in which the nodes
+                are visited.
+            </p>
+            <h3>Time Complexity: 0(1) </h3>
+            <h3>Space Complexity: O(h) </h3>
+        </section>
+    </div>
+
+    <div class="container">
+        <h1 id="text">Binary Tree Visualization</h1>
+        <div class="findContainer"></div>
+        <textarea oninput="action()" type="number" placeholder='Enter an array which is separated with space. The root is first element.
+Ex: 5 9 1 3 7' id="inp" cols="30" rows="10"></textarea>
+        <div class="btn-container">
+            <button class="btn-clear" onclick="clearAndCreate()">Clear</button>
+            <button class="btn" disabled onclick="toggleLock()">Lock</button>
+        </div>
+
+        <div class="box graph" id="tree"></div>
+
+    </div>
+
+
+</body>
+<script src="/BinaryTreeTraversal/index.js"></script> 
+<script src="/BinaryTreeTraversal/Binary.js"></script>
+<script src="/BinaryTreeTraversal/draw.js"></script>
+<script src="/BinaryTreeTraversal/d3js.js"></script>
+
+</html>

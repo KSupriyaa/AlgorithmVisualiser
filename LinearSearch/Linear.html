@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="Linear.css" />
+</head>
+
+<body>
+	 <div class="backcolor">
+        <section class="section-gap">
+
+            <h1>Linear Search</h1><br/>
+            <p> About the algorithm:</p>
+            <hr>
+            <p><br/> Linear search is the simplest method of searching a dataset.
+				Starting at the beginning of the data set,<br/>
+				each item of data is examined until a match is made.
+				Once the item is found the search ends. 
+				  </p><br/>
+            <h3>Time Complexity: 0(n) </h3><br/>
+            <h3>Space Complexity: O(1) </h3>
+        </section>
+    </div>
+
+
+	<div id="array"></div>
+	<br /><br />
+
+	<div style="text-align: center">
+	<label for="fname" id="text">
+		Number to be Searched:
+	</label>
+	<input type="text" id="fname" name="fname" />
+	<br /><br />
+	<button id="btn" class="button"
+			onclick="LinearSearch()">Search
+	</button>
+	<br />
+	<br />
+	<div id="text"></div>
+	</div>
+
+	<!-- <button id="reset-button" class="button">RESET</button> -->
+
+	<script src="Linear.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="/BinarySearch/Binary.css" />
+</head>
+
+<body>
+	<br />
+	 <div class="backcolor">
+        <section class="section-gap">
+
+            <h1>Binary Search</h1><br/>
+            <p> About the algorithm:</p><br/>
+            <hr>
+            <p> <br/>Binary Search is an efficient algorithm for finding an 
+				item from a sorted list of items.
+				 It works by repeatedly
+				dividing <br/>in half the portion of the list that could contain an item,
+				until narrowed down possible locations to just one.
+				  </p><br/>
+            <h3>Time Complexity: O(1)</h3><br/>
+            <h3>Space Complexity: O(logN) </h3>
+        </section>
+    </div>
+
+
+
+
+	<div id="array"></div>
+	<br /><br />
+
+	<div style="text-align: center">
+	<label for="fname" id="text">
+		Number to be Searched:
+	</label>
+	<input type="text" id="fname"
+			name="fname" />
+	<br /><br />
+	<button id="btn" class="button"
+			onclick="BinarySearch()">Search</button>
+	<br />
+	<br />
+	<div id="text"></div>
+	</div>
+
+	<script src="/BinarySearch/Binary.js"></script>
+</body>
+</html>

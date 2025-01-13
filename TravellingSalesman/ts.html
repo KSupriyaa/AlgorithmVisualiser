@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Traveling Salesman Problem</title>
+  <meta name="description" content="TSP">
+  <link rel="stylesheet" href="ts.css">
+  <script src="ts.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
+
+<body onload = "initialize()">
+  <div class="backcolor">
+    <section class="section-gap">
+
+        <h1>Travelling Salesman</h1>
+        <p id=> About the algorithm:</p>
+        <hr>
+        <p>The Traveling salesman problem is an algorithmic problem
+          tasked with finding the shortest route between a set of positions
+          and locations that must be visited. In problem statement,
+        the points are the cities a salesman might visit. </p></br>
+        <h3>Time Complexity: O(n2) </h3>
+        <h3>Space Complexity: O(1) </h3>
+    </section>
+</div>
+
+  <h1>SOLVING TRAVELING SALESMAN PROBLEM </h1>
+  <canvas id = "canvas" height = "500" width = "500"></canvas>
+  <br>
+  <button type="button" onclick="start()">click to start solving</button>
+  <p id = "gen">Generation: </p>
+  <p id = "path">Path: </p>
+  <p id = "distance">Distance: </p>
+</body>
+</html>

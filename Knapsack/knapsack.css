@@ -1,0 +1,71 @@
+body{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    background-color: #161625;
+    color: aliceblue;
+
+}
+.jumbotron
+{
+  background-color: #1E1E30 !important;
+}
+
+.card{
+  background-color: #1E1E30 !important;
+}
+.navbar{
+    height:10vh;
+    background-color: #1E1E30 !important;
+}
+.navbar-brand{
+    margin-left: 10%;
+}
+
+.navbar-nav{
+    margin-right: 10%;
+}
+
+.section-gap{
+    margin-top: 15vh;
+}
+.navbar-toggler-icon{
+  color: #dddddd;
+}
+
+hr{
+  background-color: aliceblue;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: aliceblue;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: aliceblue;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+a:hover{
+  color:#138496;
+}
+
+a{
+  color:white;
+}
+.footer_area {
+  padding: 20px 0 20px;
+  position: fixed; 
+  bottom: 0;
+  width:100%;
+}
+
+.card:hover{
+  background-color: #138496;
+}

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Secular+One&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 20px;
+  text-align: center;
+}
+
+#array {
+  background-color: #161625;
+  height: 265px;
+  width: 598px;
+  margin: auto;
+  position: relative;
+  margin-top: 64px;
+}
+
+.block {
+  width: 28px;
+  background-color: #6b5b95;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.2s all ease;
+}
+
+.block_id {
+  position: absolute;
+  color: white;
+  margin-top: -20px;
+  width: 100%;
+  text-align: center;
+}
+
+.block_id2 {
+  position: absolute;
+  color: black;
+  margin-top: 22px;
+  width: 100%;
+  text-align: center;
+}
+
+.block_id3 {
+  position: absolute;
+  color: black;
+  margin-top: 1px;
+  width: 100%;
+  text-align: center;
+}
+
+.bucket {
+  width: 256px;
+  height: 260px;
+  position: relative;
+}
+
+.bucket2 {
+  margin: auto;
+  width: 148px;
+  height: 260px;
+}
+
+.firstbucket {
+  width: 28px;
+  background-color: #6b5b95;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.2s all ease;
+}
+
+.secondbucket {
+  width: 28px;
+  background-color: #6b5b95;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.2s all ease;
+}
+
+.thirdbucket {
+  width: 28px;
+  background-color: #6b5b95;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.2s all ease;
+}
+
+.fourthbucket {
+  width: 28px;
+  background-color: #6b5b95;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.2s all ease;
+}
+
+button{
+  margin-right: 10px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  width: 15vw;
+  border: none;
+  color: #303030;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 0px;
+  background-color: goldenrod;
+}
+
+
+.speed-slider{
+  display: inline-block;
+  margin:0px 20px;
+}
+.controls{
+  text-align: center;
+  justify-content: center;
+  margin:60px 0px;
+  position: relative;
+  bottom: -20px;
+}
+
+.rab{
+ 
+  height: 70px;
+  width: 15vw;
+  border:none;
+  color: #303030;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 0px;
+  background-color: goldenrod;
+
+  /* height: 60px;
+  width:200px; */
+  text-align: center;
+  justify-content: center;
+  background-color: goldenrod;
+ 
+  
+}
+
+.rab:hover{
+  background-color:rgb(91, 219, 87);
+}
+
+.sb{
+  height: 60px;
+  width:150px;
+  text-align: center;
+  justify-content: center;
+  margin:0px 30px;
+}
+
+.sb:hover{
+  height: 60px;
+  width:150px;
+  text-align: center;
+  justify-content: center;
+  margin:0px 30px;
+  background-color: rgb(91, 219, 87);
+}
+.pb{
+  height: 60px;
+  width:150px;
+  text-align: center;
+  justify-content: center;
+  margin:0px 30px;
+}
+
+.pb:hover{
+  height: 60px;
+  width:150px;
+  text-align: center;
+  justify-content: center;
+  margin:0px 30px;
+  background-color: rgb(91, 219, 87);
+}
+
+.plb{
+  height: 60px;
+  width:150px;
+  text-align: center;
+  justify-content: center;
+  margin:0px 30px;
+
+}
+
+.plb:hover{
+  height: 60px;
+  width:150px;
+  text-align: center;
+  justify-content: center;
+  margin:0px 30px;
+  background-color: rgb(91, 219, 87);
+}
+
+h1{
+  color:cadetblue;
+  font-size:xx-large;
+}
+
+h3{
+ font-size:larger;
+}
+.backcolor{
+ background-color:#1E1E30 ;
+}
+
+.section-gap{
+margin-top: 10vh;
+}
+
+body{
+ font-family: 'Baloo Tamma 2', cursive;
+ font-weight: 500;
+ background-color: #161625;
+ color: aliceblue;
+}
+
+  

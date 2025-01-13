@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sum Of Subset</title>
+    <link rel="stylesheet" href="subset.css" />
+    <!--<link rel="stylesheet" href="headersubset.css" />-->
+  
+    <link rel="stylesheet" href="  https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+   <div class="backcolor"> 
+        <section class="section-gap">
+
+            <h1>Sum Of Subsets</h1>
+            <p> About the algorithm:</p>
+            <hr>
+            <p> Subset sum poblem is to find subset of elements that are selected 
+              from a given number<br/>The backtracking approach generates all possible permutations
+              of the subsets. </p>
+            <h3>Time Complexity: O(N*sum)  </h3>
+            <h3>Space Complexity: O(N*sum)  </h3>
+        </section>
+    </div>
+
+    <main id="home">
+    
+      <div class="container content">
+          <div class="row">
+            <div class="col-md-2"></div>
+              <div class="col-md-8  col-12 col-sm-12" style=" padding: 20px;">
+                  <div class="card shadow-lg p-3 mb-5 bg-white rounded" >
+                    <div class="card-body">
+                      <h5 class="card-title">Sum Of Subset Problem </h5>
+                    
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2"></div>
+          </div>
+      <div class="row">
+         
+        <div class="col-md-4  col-12 col-sm-12" style=" padding: 20px;">
+          <div class="card shadow-lg p-3 mb-5 bg-white rounded " style="height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Enter Set contents</h5>
+              <p class="card-text">Input Elements of Set in Increasing order <br> (separated by , (comma) )</p>
+             
+              <div class="input-group flex-nowrap">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="addon-wrapping">Set</span>
+                  </div>
+                  <input type="text" id="set" class="form-control" placeholder=" Input Elements" aria-label="Elements" aria-describedby="addon-wrapping">
+                </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-4 col-12 col-sm-12" style=" padding: 20px;">
+          <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Enter Sum Value</h5>
+              <p class="card-text">Input Required Sum Value </p>
+              <br/>
+              <div class="input-group flex-nowrap">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="addon-wrapping">Sum</span>
+                  </div>
+                  <input type="number" id="sum" class="form-control" placeholder=" Input Sum Value " aria-label="Sum" aria-describedby="addon-wrapping">
+                </div>
+                <br/>
+              <a onclick="input()"  class="btn btn-primary" style=" background-color: #333; color: #FFFFFF;">Find solution</a>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-4 col-12 col-sm-12" style=" padding: 20px;">
+          <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Solution</h5>
+              <p class="card-text">Solution For Your Input ..</p>
+              <p id="result" style="overflow-y: scroll; height:70px;"></p>
+             
+              <a onclick="resetValues()" class="btn btn-primary" style=" background-color: #333; color: #FFFFFF;">Reset</a>
+            </div>
+          </div>
+        </div>
+       </div>
+       
+      </div>
+
+    
+      <div id='stars'></div>
+     
+     
+      
+    
+    <!-- script -->
+    <script src="subset.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

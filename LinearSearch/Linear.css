@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Secular+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: white; */
+    }
+    
+    .header {
+    font-size: 35px;
+    text-align: center;
+    }
+    
+    #array {
+    display: flex;
+    background-color:#161625 ;
+    height: 305px;
+    width: 650px;
+    margin: auto;
+    position: relative;
+    margin-top: 64px;
+    margin-bottom: 20px;
+    }
+    
+    .block {
+    width: 28px;
+    background-color: #2196f3;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+    }
+    
+    .block_id {
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+    }
+
+    .button{
+        height: 50px;
+        width: 15vw;
+        border: none;
+        color: #303030;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-top: 0px;
+        background-color: goldenrod;
+    }
+    
+    .button:hover{
+        
+            height: 50px;
+            width: 15vw;
+            border: none;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #303030;
+            font-size: 30px;
+            font-weight: bold;
+            border-radius: 10px;
+            margin-top: 0px;
+           background-color: rgb(91, 219, 87); 
+        }
+        
+
+    #fname{
+       font-size: 20px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #text{
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .backcolor{
+        background-color:#1e1e30;
+      }
+
+      .section-gap{
+        margin-top: 3vh;
+        }
+
+        body{
+            font-family: 'Baloo Tamma 2', cursive;
+            font-weight: 500;
+             background-color: #161625; 
+            color: aliceblue;
+          }
+          
+          h1{
+            color:cadetblue;
+            font-size:xx-large;
+         }
+         
+         h3{
+           font-size:larger;
+         }
